@@ -6,9 +6,33 @@ export default function DashboardLayout({
   return (
     <html lang="en">
       <body>
-        {/* Layout UI */}
-        {/* Place children where you want to render a page or nested layout */}
-        <main>{children}</main>
+        <header style={{
+          backgroundColor: "black",
+          padding: "1rem",
+          color: "white",
+          fontSize: "1.5rem",
+          textAlign: "center",
+        }}>
+          <p>Header</p>
+        </header>
+        <main style={{
+          backgroundColor: "gray",
+          padding: "1rem",
+          color: "white",
+          fontSize: "1.5rem",
+          textAlign: "center",
+        }}>
+          {children}
+          </main>
+        <footer style={{
+          backgroundColor: "black",
+          padding: "1rem",
+          color: "white",
+          fontSize: "1.5rem",
+          textAlign: "center",
+        }}>
+          <p>Footer</p>
+        </footer>
       </body>
     </html>
   )
