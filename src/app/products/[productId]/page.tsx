@@ -9,7 +9,6 @@ export default async function ProductDetails({ params }: PageProps) {
 
   return (
     <div>
-      <h1>Product Details Page</h1>
       <h2>Details about Product {productId}</h2>
     </div>
   );
