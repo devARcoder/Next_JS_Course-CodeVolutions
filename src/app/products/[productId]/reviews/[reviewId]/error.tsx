@@ -15,3 +15,5 @@ export default function Error({
     </div>
   );
 }
+
+// handlings error in nested routes
