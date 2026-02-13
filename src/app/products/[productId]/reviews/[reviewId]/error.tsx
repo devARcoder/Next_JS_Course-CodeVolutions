@@ -17,3 +17,4 @@ export default function Error({
 }
 
 // handlings error in nested routes
+// handlings error in layouts
