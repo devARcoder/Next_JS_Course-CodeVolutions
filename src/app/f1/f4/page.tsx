@@ -13,3 +13,4 @@ export default function F4(){
 
     )
 }
+// gallery of images example in lecture 32 fully watched and understood.
